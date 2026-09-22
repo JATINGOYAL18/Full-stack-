@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> FSD LAB</title>
+    <title> FULL STACK DEV </title>
 </head>
 <body>
     <hr>
-    <h2> We are learning forms today</h2>
+    <h2> We are learning forms</h2>
     <hr>
 
-    <form>
+    <form action="register.html">
         <br>
 
         <label for="Email">Apna Email daalo ji</label>
@@ -25,7 +25,21 @@
         <br>
 
         <label for="DOB">Apna janamdin ki tarik</label>
-        <input type="datetime-local" placeholder="Enter  your DOB" id="DOB" name="DOB" value="DOB"/>
+        <input type="date" placeholder="Enter  your DOB" id="DOB" name="DOB" value="DOB"/>
+
+        <br>
+        <label for="age">Type your age</label>
+        <input type="number" placeholder="Enter your age" id="age" name="Type the age" required minlength="1" maxlength="2">
+
+        <br>
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+
+        <br>
+        <input type="submit">
+        <input type="reset">
+        
+        <br>
 
     </form>
 
