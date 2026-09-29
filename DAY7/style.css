@@ -1,0 +1,20 @@
+.text{color: rgb(237, 71, 179);background-color: rgb(228, 216, 216);}
+
+h2{
+    color: black;
+    background-color: yellow;
+}
+
+p{
+    color: rgb(47, 0, 255);
+    background-color: aqua;
+    
+}
+
+#middle{
+    background-color: salmon;
+    width: 250px;
+}
+ span{
+    background-color: yellow;
+ }
