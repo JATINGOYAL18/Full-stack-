@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.item1{
+    background-color: orange;
+    height: 300px;
+    width: 500px;
+}
+
+
+.item2 {
+    background-color: rgb(10, 185, 255);
+    height: 300px;
+    width: 60vw;
+}
+
+
+.item3 {
+    background-color: rgb(190, 17, 132);
+    height: 300px;
+    width: 60%;
+}
+body{
+    background-color: black;
+}
