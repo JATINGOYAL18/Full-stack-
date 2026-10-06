@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+    height: 100px;
+    width: 100%;
+    background-color: #ef0707;
+    opacity: 0.5;
+}
