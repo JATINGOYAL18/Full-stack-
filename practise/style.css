@@ -4,86 +4,81 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+header {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 8px 12px;
 }
 
-h1 {
-    font-size: 36px;
-    text-decoration: underline;
+nav {
+    display: none;
+
+    border: 1px solid gray;
+    background-color: lightgray;
+    /* display: flex; */
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    width: fit-content;
+
+    position: absolute;
+    /* z-index: -1; */
+    top: 40px;
 }
 
-#hero-card {
-    height: 200px;
-    border: 6px solid #39A227;
-    border-radius: 16px;
-    padding: 16px;
-    margin: 20px 0;
-    background-color: #2c3e50;
-    color: #fff;
+.mobile-btns {
+    display: none;
 }
 
-#hero-card h2 {
-    font-size: 30px;
+.menu-container {
+    order: -1;
+    background-color: rgb(146, 134, 22);
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
 }
 
-#hero-card p {
-    font-size: 20px;
-    margin-top: 20px;
-    color: #d8bfd8;
+.menu-container:hover nav {
+    /* background-color: yellow; */
+    display: flex;
 }
 
-.card {
-    width: 300px;
-    border-radius: 16px;
-    padding: 16px;
-    margin: 12px auto;
-    border: 4px solid #E0B057;
-    background-color: #f1f1aa;
+@media (width>=600px) {
+    /* body{
+        background-color: red;
+    } */
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        position: static;
+
+        background-color: transparent;
+
+    }
+
+    .menu-container {
+        order: 1;
+        height: fit-content;
+        width: fit-content;
+        border-radius: 0;
+        background-color: transparent;
+
+    }
+
+    .laptop-btns {
+        display: flex;
+        order: 2;
+    }
+
+
+    .mobile-btns {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+    }
 }
-
-.card .text {
-    margin-top: 0;
-    font-weight: bold;
-    font-size: 18px;
-    color: #814c18;
-}
-
-.card .explanation {
-    margin-top: 12px;
-    font-size: 16px;
-    color: #1482aa;
-}
-
-.card.bg-green {
-    background-color: #B4EAB4;
-    border-color: #39A227;
-}
-
-.card.bg-green .text.explanation {
-    color: #d618d6;
-}
-
-.card.bg-black {
-    background-color: #2c3e50;
-    border-style: dotted;
-    border-color: #39A227;
-}
-
-.card.bg-black .text {
-    font-size: 20px;
-    color: #fff;
-}
-
-.text-light {
-    color: #fff;
-}
-
-.text-italic {
-    font-style: italic;
-    font-size: 18px;
-    margin-top: 12px;
-}
-
-

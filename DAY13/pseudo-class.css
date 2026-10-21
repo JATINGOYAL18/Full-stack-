@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aquamarine;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+}
+
+button{
+    background-color: yellow;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+nav{
+    display: flex;
+    padding: 8px 12px;
+    background-color: grey;
+    color: rgb(166, 166, 102);
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 2px ;
+
+}
+
+button:hover{
+    background-color: white;
+    color: blue;
+
+    transition-property: all;
+    transition-duration: 1s;
+
+    scale: 1.10;
+}
+
+button:active{
+    scale: 0.0;
+}
+
+a{
+    color: red;
+}
