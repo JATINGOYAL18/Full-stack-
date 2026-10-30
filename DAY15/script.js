@@ -112,15 +112,49 @@ const data = POLICAD_QUESTION_DATA;
 
 
 
-let username = prompt("input your name");
+// let username = prompt("input your name");
 let age = prompt("enter your age")
 // alert(username)
 // console.log(username)
 // alert(`my name is ${username}`)
 // console.log("my username is", username)        //-------------- space aayegi iss mai username se pehle 
 // console.log("my username is" + username)       //-------------isme space nahi aayegi usename kai pehle
+
 // age = parseInt(age)     // parse use for changing the type of the input/prompt // agar isme kuck bhi extra de diya means age = 66 years yhen they give the answer is 66 
 // console.log(typeof age)
+
 // let age_num = Number(age)  // agar int nahi aya toh wohh nan de dega 
 // console.log(age_num)
 // console.log(typeof age_num) // nan
+
+// age = parseFloat(age)
+// console.log(age)
+// console.log(typeof age)
+
+
+// Math functions
+// console.lpg(Math.round())
+// console.log(Math.ceil())
+// console.log(Math.floor())
+// console.log(Math.min(1,20,0))
+// console.log(Math.max(10,2,5,44))
+
+
+
+// let total = 0
+// let answer
+// do {
+  //METHOD 1
+  // answer = prompt("enter the expense")
+  // if ( answer === "done") {
+  //   break
+  // } else {
+  //   total += parseFloat(answer)
+  // }
+
+  // METHOD 2
+  // if ( answer !== "done") {
+  //   total += parseFloat(answer)
+  // }
+// } while (answer !== "done")
+// console.log(total)
