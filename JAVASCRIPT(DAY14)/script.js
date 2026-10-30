@@ -93,25 +93,47 @@
 //  console.log(student.na
 // me);
 
-const students = ["jatin", "goyal", "yash", "jain"]
-console.log(students)
-console.log(typeof students)
-console.log(students[2])
-students[20] = "verma"
-console.log(students)
+// const students = ["jatin", "goyal", "yash", "jain"]
+// console.log(students)
+// console.log(typeof students)
+// console.log(students[2])
+// students[20] = "verma"
+// console.log(students)
 
-// 
-console.log("---push---");
-console.log(students);
-students.push("padum");
-console.log(students);
+// // 
+// console.log("---push---");
+// console.log(students);
+// students.push("padum");
+// console.log(students);
 
-// THIS WILL ADD THE ELEMENTS IN THE START OF THE ARRAY 
-students.push(["nitish", "naman", "dhaumay"])
-console.log(students)
+// // THIS WILL ADD THE ELEMENTS IN THE START OF THE ARRAY 
+// students.push(["nitish", "naman", "dhaumay"])
+// console.log(students)
 
-// pop remove the element from the last array
-console.log("----pop----");
-console.log(students);
-students.pop();
-console.log(students);
+// // pop remove the element from the last array
+// console.log("----pop----");
+// console.log(students);
+// students.pop();
+// console.log(students);
+
+// students.splice(2,1,"ammandeep");
+// console.log(students)
+
+
+// let a = 5;
+// let b = "5";
+// console.log(a!=a)
+// console.log(a**b)
+// console.log(a === b)
+// console.log(a == b)
+
+
+// let num = prompt("Enter a number");
+// if(num % 5 === 0) {
+//     console.log("multiple")
+// } else{
+//     console.log("not a multiple")
+// }
+// console.log(num)
+
+
